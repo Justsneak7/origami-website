@@ -1,33 +1,37 @@
-* {
-    /* color: #1e90ff; */
-    background-color: #FAF3DD;
+*{
+    background-color: rgb(65, 214, 225);
     font-family: cursive, fantasy, serif;
     margin: 0px;
 }
 
-
 .header{
-    background-color: #FAF3DD;
+    background-color: lightcoral;
     display: flex;
     justify-content: space-between;
-    padding:25px
+    padding: 30px
 }
 
-.grid {
-    margin: 0px;
-    padding: 0px;
+.images {
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
-.panda{
-    display : flex;
-    color:greenyellow
+.grid{
+    justify-content: space-evenly;
 }
 
-.panda-text{
+.panda{
+    display: flex;
+    color: lightskyblue;
+}
+
+.pandatext{
     display: flex;
     justify-content: space-between;
-    color:magenta
+    color: mediumblue;
 }
 
 .chameleon{
@@ -118,3 +122,36 @@ i {
     font-size: 20px;
     color: #b22222;
 }
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
+
+li {
+    color: #696969;
+}
+
+b {
+    font-size: 20px;
+    color: #008b8b;
+}
+
+i {
+    font-size: 20px;
+    color: #b22222;
+}
+
+.footer{
+    background-color: crimson;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
