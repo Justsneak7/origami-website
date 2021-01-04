@@ -1,14 +1,16 @@
-*{
-    background-color: rgb(65, 214, 225);
+* {
+    /* color: #1e90ff; */
+    background-color: #FAF3DD;
     font-family: cursive, fantasy, serif;
     margin: 0px;
 }
 
+
 .header{
-    background-color: lightcoral;
+    background-color: #FAF3DD;
     display: flex;
     justify-content: space-between;
-    padding: 30px
+    padding:25px
 }
 
 .images {
@@ -19,24 +21,49 @@
     justify-content: center;
 }
 
-.grid{
-    justify-content: space-evenly;
-}
-
 .panda{
-    display: flex;
-    color: lightskyblue;
+    max-width: 300px;
+    border: dashed;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
 }
 
-.pandatext{
+.panda:hover p {
+    opacity: 1;
+}
+
+.panda:hover img {
+    opacity: 0.5;
+}
+
+.panda:hover {
+    transform: scale(1.15);
+}
+
+.panda-text{
     display: flex;
     justify-content: space-between;
-    color: mediumblue;
+    color:magenta
 }
 
 .chameleon{
-    display : flex;
-    color:red
+    max-width: 300px;
+    border: dashed;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.chameleon:hover p {
+    opacity: 1;
+}
+
+.chameleon:hover img {
+    opacity: 0.5;
+}
+
+.chameleon:hover {
+    transform: scale(1.15);
 }
 
 .chameleon-text{
@@ -46,8 +73,23 @@
 }
 
 .cicada{
-    display : flex;
-    color:black
+    max-width: 300px;
+    border: dashed;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.cicada:hover p {
+    opacity: 1;
+}
+
+.cicada:hover img {
+    opacity: 0.5;
+}
+
+.cicada:hover {
+    transform: scale(1.15);
 }
 
 .cicada-text{
@@ -57,8 +99,23 @@
 }
 
 .pigeon{
-    display : flex;
-    color:brown
+    max-width: 300px;
+    border: dashed;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.pigeon:hover p {
+    opacity: 1;
+}
+
+.pigeon:hover img {
+    opacity: 0.5;
+}
+
+.pigeon:hover {
+    transform: scale(1.15);
 }
 
 .pigeon-text{
@@ -68,8 +125,23 @@
 }
 
 .teddy{
-    display : flex;
-    color:magenta
+    max-width: 300px;
+    border: dashed;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.teddy:hover p {
+    opacity: 1;
+}
+
+.teddy:hover img {
+    opacity: 0.5;
+}
+
+.teddy:hover {
+    transform: scale(1.15);
 }
 
 .teddy-text{
@@ -79,8 +151,23 @@
 }
 
 .camel{
-    display : flex;
-    color:palegreen
+    max-width: 300px;
+    border: dashed;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.camel:hover p {
+    opacity: 1;
+}
+
+.camel:hover img {
+    opacity: 0.5;
+}
+
+.camel:hover {
+    transform: scale(1.15);
 }
 
 .camel-text{
@@ -101,37 +188,16 @@ body{
     color: whitesmoke;
 }
 
-.Links {
-    padding: 25px;
-}
-
-img {
-    margin-bottom: -5px;
-}
-
-li {
-    color: #696969;
-}
-
-b {
-    font-size: 20px;
-    color: #008b8b;
-}
-
-i {
-    font-size: 20px;
-    color: #b22222;
-}
-
 a:link{
-    color: white;
-}
-a:visited{
-    color: white;
+    color: #3cb371;
 }
 
-.origami:hover{
-    transform: scale(1.2);
+a:visited{
+    color: #3cb371;
+}
+
+img{
+    box-shadow: 5px 5px 3px 1px #999
 }
 
 li {
@@ -147,11 +213,3 @@ i {
     font-size: 20px;
     color: #b22222;
 }
-
-.footer{
-    background-color: crimson;
-    display: flex;
-    justify-content: flex-end;
-}
-
-
